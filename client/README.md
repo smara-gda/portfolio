@@ -1,19 +1,17 @@
+# Components of the page
 
+  # Header component
+  
+  # Footer Component
 
-# Header component
+  # NavBar Component
 
-# Footer Component
+  # Home component
 
-# NavBar Component
+  # Experiences
 
-# Main component
+  # Projects
 
-# in Main
+  # About Me
 
-# Experiences
-
-# Projects
-
-# About Me
-
-# Blog
+ # Blog <---- Maybe will not DO
