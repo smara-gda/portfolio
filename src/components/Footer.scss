@@ -1,12 +1,17 @@
 .footer {
-  background-color: #957dad;
-  position: absolute;
+  // background-color: #b39ddc;
+  color: #fed8b2;
   left: 0;
   bottom: 0;
   right: 0;
+  height: 4em;
+
+  background-color: #605c5cb0;
+  transition: 0.2s;
+  position: fixed;
 
   p {
-    padding: 0 0.5em;
+    padding: 0.5em 0.5em;
     text-align: center;
     height: 1em;
   }

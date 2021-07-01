@@ -1,7 +1,23 @@
 .profile_pic {
-  width: 8em;
-  height: 8em;
+  width: 10em;
+  height: 10em;
   border-radius: 50%;
   box-shadow: 0 0.125em 0.75em -0.5em;
-  margin-right: 1em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  p {
+    text-align: justify;
+    width: 70%;
+  }
+}
+.flex-wrapper {
+  display: flex;
+
+  align-content: center;
+  align-items: center;
 }

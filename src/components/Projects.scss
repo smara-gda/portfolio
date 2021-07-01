@@ -1,0 +1,18 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 8em;
+  margin-bottom: 2em;
+}
+
+.wrapper {
+  border: 0.5px solid;
+  border-radius: 8%;
+  width: 50%;
+  padding: 1em 2em 10em 2em;
+  margin: 1em 2em 1em 2em;
+  text-align: center;
+  height: 10em;
+  line-height: 18px;
+}
