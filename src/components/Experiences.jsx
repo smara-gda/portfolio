@@ -1,9 +1,9 @@
 import React from 'react';
 import './Experiences.scss';
 
-export default function Experiences() {
+const Experiences = React.forwardRef((props, ref) => {
   return (
-    <div className="generic general">
+    <div className="generic" ref={ref}>
       <p>
         I have experience with HTML, CSS, JavaScript, ReactJS, mongoDB, Axios,
         NodeJS,
@@ -28,4 +28,5 @@ export default function Experiences() {
       </p>
     </div>
   );
-}
+});
+export default Experiences;

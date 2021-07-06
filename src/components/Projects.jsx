@@ -1,9 +1,10 @@
 import React from 'react';
 import './AboutMe.scss';
 import './Projects.scss';
-export default function Projects() {
+
+const Projects = React.forwardRef((props, ref) => {
   return (
-    <section className="generic projects">
+    <section className="generic projects" ref={ref}>
       <div className="wrapper">
         <h3>
           <a
@@ -50,4 +51,5 @@ export default function Projects() {
       </div>
     </section>
   );
-}
+});
+export default Projects;

@@ -1,9 +1,10 @@
 import React from 'react';
 import profilePicture from './../picture/profilePicture.jpeg';
 import './AboutMe.scss';
-export default function AboutMe() {
+
+const AboutMe = React.forwardRef((props, ref) => {
   return (
-    <div className="generic flex-wrapper">
+    <div className="generic flex-wrapper" ref={ref}>
       <img className="profile_pic" src={profilePicture} alt="profile" />
       <div className="flex-container">
         <p>
@@ -30,4 +31,5 @@ export default function AboutMe() {
       </div>
     </div>
   );
-}
+});
+export default AboutMe;
