@@ -14,11 +14,11 @@ const Main = () => {
   const projectsRef = React.useRef();
   return (
     <main>
-      <Header navRefs={[homeRef, aboutMeRef, experiencesRef, projectsRef]} />
+      <Header navRefs={[homeRef, experiencesRef, projectsRef, aboutMeRef]} />
       <Home ref={homeRef} />
-      <AboutMe ref={aboutMeRef} />
       <Experiences ref={experiencesRef} />
       <Projects ref={projectsRef} />
+      <AboutMe ref={aboutMeRef} />
       <Footer />
     </main>
   );

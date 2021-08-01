@@ -1,14 +1,8 @@
-.profile_pic {
-  width: 10em;
-  height: 10em;
-  border-radius: 50%;
-  box-shadow: 0 0.125em 0.75em -0.5em;
-}
-
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 10em;
 
   p {
     text-align: justify;

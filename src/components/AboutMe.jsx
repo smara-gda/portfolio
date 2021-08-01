@@ -1,11 +1,10 @@
 import React from 'react';
-import profilePicture from './../picture/profilePicture.jpeg';
+
 import './AboutMe.scss';
 
 const AboutMe = React.forwardRef((props, ref) => {
   return (
     <div className="generic flex-wrapper" ref={ref}>
-      <img className="profile_pic" src={profilePicture} alt="profile" />
       <div className="flex-container">
         <p>
           I was born in Greece and now residing in the small town of Uithoorn in

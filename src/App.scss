@@ -19,8 +19,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'proxima-nova', Montserrat,
     'Open-Sans', Roboto, Lato, Adelle;
   line-height: 1.5;
-  background-color: #fcffe0;
+  background-color: #ffffff;
   color: #b39ddc;
+  font-weight: 600;
 }
 
 a {
@@ -29,6 +30,6 @@ a {
 }
 
 .generic {
-  padding-left: 8em;
-  margin-top: 8em;
+  padding: 6em;
+  margin: 6em;
 }

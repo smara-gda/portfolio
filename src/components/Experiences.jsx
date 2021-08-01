@@ -3,7 +3,7 @@ import './Experiences.scss';
 
 const Experiences = React.forwardRef((props, ref) => {
   return (
-    <div className="generic" ref={ref}>
+    <div className="flex-container" ref={ref}>
       <p>
         I have experience with HTML, CSS, JavaScript, ReactJS, mongoDB, Axios,
         NodeJS,
