@@ -4,7 +4,7 @@ import './Projects.scss';
 
 const Projects = React.forwardRef((props, ref) => {
   return (
-    <section className="generic projects" ref={ref}>
+    <section className=" projects" ref={ref}>
       <div className="wrapper">
         <h3>
           <a
