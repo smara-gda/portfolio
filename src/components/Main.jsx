@@ -16,7 +16,10 @@ const Main = () => {
     <main>
       <Header navRefs={[homeRef, experiencesRef, projectsRef, aboutMeRef]} />
       <Home ref={homeRef} />
-      <Experiences ref={experiencesRef} />
+      <Experiences
+        ref={experiencesRef}
+        navRefs={[homeRef, experiencesRef, projectsRef, aboutMeRef]}
+      />
       <Projects ref={projectsRef} />
       <AboutMe ref={aboutMeRef} />
       <Footer />

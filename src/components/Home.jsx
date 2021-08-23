@@ -19,6 +19,3 @@ const Home = React.forwardRef((props, ref) => {
 });
 
 export default Home;
-// const SimpleComp = React.forwardRef((props, ref) => {
-//   return <div style={{backgroundColor: props.color}} ref={ref}>scroll to me!</div>
-// })

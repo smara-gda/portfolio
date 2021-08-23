@@ -4,7 +4,7 @@ import './Projects.scss';
 
 const Projects = React.forwardRef((props, ref) => {
   return (
-    <section className=" projects" ref={ref}>
+    <section className="projects" ref={ref}>
       <div className="wrapper">
         <h3>
           <a
@@ -15,7 +15,7 @@ const Projects = React.forwardRef((props, ref) => {
             The Food Game
           </a>
         </h3>
-        <p>TODOpage Description - inspired by my vegan lifestyle</p>
+        <p>sDescription - inspired by my vegan lifestyle</p>
       </div>
 
       <div className="wrapper">
@@ -29,8 +29,8 @@ const Projects = React.forwardRef((props, ref) => {
           </a>
         </h3>
         <p>
-          TODOPair programmed with one other classmate - inspired by my
-          classmate’s google sheets for keeping an eye on his finances.
+          Pair programmed with one other classmate - inspired by my classmate’s
+          google sheets for keeping an eye on his finances.
         </p>
       </div>
 
@@ -45,8 +45,8 @@ const Projects = React.forwardRef((props, ref) => {
           </a>
         </h3>
         <p>
-          TODO Pair programmed with classmates - inspired by my classmate who
-          wanted to bring people closer and allow them to help each other
+          Pair programmed with classmates - inspired by my classmate who wanted
+          to bring people closer and allow them to help each other
         </p>
       </div>
     </section>
