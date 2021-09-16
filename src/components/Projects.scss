@@ -1,3 +1,5 @@
+@import './../styles/variables.scss';
+
 .projects {
   display: flex;
   flex-direction: row;
@@ -16,11 +18,36 @@
   padding: 1em 2em 1em 2em;
   margin: 1em 2em 1em 2em;
   text-align: center;
-  height: 15em;
+  height: 23%;
   line-height: 18px;
+}
+
+.project-img {
+  border-radius: 4px;
+  // padding: 5px;
+  margin: 5px;
+  width: 100%;
 }
 .projects .wrapper:hover {
   background-color: #605c5c34;
   opacity: 1;
   overflow: hidden;
+}
+
+.project_title {
+  position: relative;
+  z-index: 20;
+  color: $font-color;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.project_button {
+  display: inline-block;
+  font-size: 1rem;
+  background: #08666d;
+  color: $header_footer;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
 }

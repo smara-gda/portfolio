@@ -1,12 +1,14 @@
+@import './../styles/variables.scss';
+
 .footer {
   // background-color: #b39ddc;
-  color: #fed8b2;
+  color: $header_footer;
   left: 0;
   bottom: 0;
   right: 0;
   height: 4em;
 
-  background-color: #605c5cb0;
+  // background-color: $background_color_header_footer;
   transition: 0.2s;
   position: fixed;
 

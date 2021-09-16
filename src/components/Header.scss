@@ -1,3 +1,5 @@
+@import './../styles/variables.scss';
+
 .header {
   //   width: 60px;
   //   height: 100%;
@@ -9,7 +11,7 @@
   width: 114px;
   height: 55em;
   position: fixed;
-  background-color: #605c5cb0;
+  // background-color: $background_color_header_footer;
 
   nav {
     display: flex;
@@ -19,5 +21,13 @@
   }
   nav a {
     padding: 3em 0.5em 3em 0.5em;
+  }
+  a:hover {
+    background-color: #cbc7c734;
+    opacity: 1;
+    overflow: hidden;
+  }
+  a:visited {
+    color: #cbc7c734;
   }
 }
