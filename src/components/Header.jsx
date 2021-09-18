@@ -17,20 +17,20 @@ const Header = (props) => {
         </Link>
 
         <Link
-          to="/experience"
-          onClick={() =>
-            props.navRefs[1].current.scrollIntoView({ behavior: 'smooth' })
-          }
-        >
-          Experience
-        </Link>
-        <Link
           to="/projects"
           onClick={() =>
             props.navRefs[2].current.scrollIntoView({ behavior: 'smooth' })
           }
         >
           Projects
+        </Link>
+        <Link
+          to="/experience"
+          onClick={() =>
+            props.navRefs[1].current.scrollIntoView({ behavior: 'smooth' })
+          }
+        >
+          Skills
         </Link>
         <Link
           to="/about"

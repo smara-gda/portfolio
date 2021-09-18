@@ -7,13 +7,10 @@ import foodgame from './../picture/foodgame.png';
 
 const Projects = React.forwardRef((props, ref) => {
   return (
-    <section className="projects" ref={ref}>
-      <div className="wrapper">
-        <a
-          href="https://foodgame.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
+    <section ref={ref}>
+      <h1 className="titles">Projects</h1>
+      <div className="projects">
+        <div className="item-wrapper">
           <h3 className="project_title">The Food Game</h3>
           {/* <p>A fun 80's style game, inspired by my vegan lifestyle.</p> */}
           <img
@@ -21,23 +18,25 @@ const Projects = React.forwardRef((props, ref) => {
             src={foodgame}
             alt="website look"
           />
-        </a>
-        <a
-          className="project_button"
-          href="https://github.com/smara-gda/project-1-food-game"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>
-      </div>
+          <a
+            className="project_button"
+            href="https://github.com/smara-gda/project-1-food-game"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            className="project_button"
+            href="https://foodgame.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Website
+          </a>
+        </div>
 
-      <div className="wrapper">
-        <a
-          href="https://voorrad.herokuapp.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <div className="item-wrapper">
           <h3 className="project_title">Vorraad</h3>
           {/* <p>
             Pair programmed with one other classmate - inspired by my
@@ -48,23 +47,25 @@ const Projects = React.forwardRef((props, ref) => {
             src={vooraad}
             alt="website look"
           />
-        </a>
-        <a
-          className="project_button"
-          href="https://github.com/victornast/voorrad"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>
-      </div>
+          <a
+            className="project_button"
+            href="https://github.com/victornast/voorrad"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            className="project_button"
+            href="https://voorrad.herokuapp.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Website
+          </a>
+        </div>
 
-      <div className="wrapper marketplace">
-        <a
-          href="https://getstuffdone.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <div className="item-wrapper marketplace">
           <h3 className="project_title">MarketPlace</h3>
           {/* <p>
             Pair programmed with classmates - inspired by my classmate who
@@ -75,15 +76,23 @@ const Projects = React.forwardRef((props, ref) => {
             src={marketplace}
             alt="website look"
           />
-        </a>
-        <a
-          className="project_button"
-          href="https://github.com/melaniebuck10/task-marketplace"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>
+          <a
+            className="project_button"
+            href="https://github.com/melaniebuck10/task-marketplace"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            className="project_button"
+            href="https://getstuffdone.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Website
+          </a>
+        </div>
       </div>
     </section>
   );
