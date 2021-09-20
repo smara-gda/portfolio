@@ -1,9 +1,15 @@
-// .flex-container {
-//   display: flex;
-// }
+.flex-container.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
 .skills-icons {
-  width: 6em;
-  height: 6em;
+  width: 7%;
+  height: 1%;
   padding: 2px;
   margin: 2px;
+  align-self: flex-end;
+
+  &.css {
+    width: 5.5%;
+  }
 }

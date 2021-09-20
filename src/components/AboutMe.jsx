@@ -1,35 +1,35 @@
 import React from 'react';
 
 import './AboutMe.scss';
-
+import resume from './../cv/Resume Smaragda Doc.pdf';
+import profilePicture from './../picture/profilePicture.jpeg';
 const AboutMe = React.forwardRef((props, ref) => {
   return (
     <section ref={ref}>
       <h1 className="titles">About Me</h1>
       <div className="generic flex-wrapper">
-        <div className="flex-container">
+        <div>
+          <img className="profile_pic" src={profilePicture} alt="profile" />
+        </div>
+        <div className="flex-container about">
           <p>
-            I was born in Greece and now residing in the small town of Uithoorn
-            in the Netherlands. I tried a lot of video courses, I learned the
-            basics of JS, CSS & HTML, but I needed the next step. I decided to
-            go back to school. I joined the IronHack Remote Bootcamp. This was a
-            game changer, the best gift I could have ever done to myself.
+            Because of my interest in computer sience I took a direction in my
+            career where I landed in a job as a Software Quality Specialist.
+            During my QA career, I got started with learning the basics of
+            HTML/CSS & JS. I was determined to continue, and as for me
+            selfstudying was not enough, I joined a WebDevelopment Bootcamp. I
+            got the chance to work with modern technologies, worked on both
+            FrontEnd & BackEnd.
           </p>
-          <p>
-            Since I was a kid I wanted to get involved with computer science.
-            Here I am today, presenting to you myself on my own website!
-          </p>
-          <p>
-            When I started working in QA I learned about CSS and HTML because I
-            had to inspect the website for testing purposes. Working closely
-            with development teams, my interest in web development grew even
-            more. It was decided that one day I will learn how to do that
-            myself.
-          </p>
-          <p>
-            Have a look at my Projects Page to know more about my knowledge on
-            the technologies I am familiar with.
-          </p>
+
+          <a
+            className="button-cv"
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Checkout my CV{' '}
+          </a>
         </div>
       </div>
     </section>

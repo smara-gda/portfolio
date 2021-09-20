@@ -1,3 +1,5 @@
+@import './../styles/variables.scss';
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -6,12 +8,34 @@
 
   p {
     text-align: justify;
-    width: 70%;
+    width: 45%;
+    line-height: 1.7rem;
+  }
+  &.about {
+    flex-direction: column;
+    // justify-content: space-around;
+    align-items: center;
   }
 }
 .flex-wrapper {
   display: flex;
-
   align-content: center;
   align-items: center;
+}
+.button-cv {
+  width: 20%;
+  background-color: $font-color;
+  color: rgb(49, 164, 172);
+  padding: 1%;
+  margin: 1%;
+  border: 1px $font-color solid;
+  align-self: end;
+  border-radius: 6px;
+}
+.profile_pic {
+  width: 14em;
+  height: 14em;
+  border-radius: 50%;
+  box-shadow: 0 0.125em 0.75em -0.5em;
+  margin-left: 14em;
 }
