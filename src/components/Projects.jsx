@@ -10,7 +10,7 @@ const Projects = React.forwardRef((props, ref) => {
     <section ref={ref}>
       <h1 className="titles">Projects</h1>
       <div className="projects">
-        <div className="item-wrapper">
+        <div className="item-wrapper nohover">
           <h3 className="project_title">The Food Game</h3>
           {/* <p>A fun 80's style game, inspired by my vegan lifestyle.</p> */}
           <img
