@@ -4,8 +4,9 @@ import './Experiences.scss';
 import html5Logo from './../picture/html_5.png';
 import cssLogo from './../picture/css_logo.png';
 import jsLogo from './../picture/js_logo.png';
-import mongoDBLogo from './../picture/mongoDB_logo.png';
+import mongoDBLogo from './../picture/mongo_DBLogo.png';
 import nodeJSLogo from './../picture/nodeJS_logo.png';
+import reactLogo from './../picture/react_logo.png';
 
 const Experiences = React.forwardRef((props, ref) => {
   return (
@@ -20,7 +21,8 @@ const Experiences = React.forwardRef((props, ref) => {
         <img className="skills-icons css" src={cssLogo} alt="css" />
         <img className="skills-icons js" src={jsLogo} alt="js" />
         <img className="skills-icons node" src={nodeJSLogo} alt="nodeJS" />
-        <img className="skills-icons node" src={mongoDBLogo} alt="mongo" />
+        <img className="skills-icons mongo" src={mongoDBLogo} alt="mongo" />
+        <img className="skills-icons react" src={reactLogo} alt="mongo" />
         {/* <p>
           I acquired these skills while taking the part-time bootcamp at
           IronHack where I had the opportunnity to build these{' '}
