@@ -18,8 +18,8 @@ const AboutMe = React.forwardRef((props, ref) => {
             During my QA career, I got started with learning the basics of
             HTML/CSS & JS. I was determined to continue, and as for me
             selfstudying was not enough, I joined a WebDevelopment Bootcamp. I
-            got the chance to work with modern technologies, worked on both
-            FrontEnd & BackEnd.
+            got the chance to work with modern technologies, like ReactJs,
+            NodeJS, MongoDB and more.
           </p>
 
           <a
