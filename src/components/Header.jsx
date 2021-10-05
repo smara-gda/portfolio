@@ -17,7 +17,7 @@ const Header = (props) => {
         </Link>
 
         <Link
-          to="/projects"
+          to="/"
           onClick={() =>
             props.navRefs[2].current.scrollIntoView({ behavior: 'smooth' })
           }
@@ -25,7 +25,7 @@ const Header = (props) => {
           Projects
         </Link>
         <Link
-          to="/experience"
+          to="/"
           onClick={() =>
             props.navRefs[1].current.scrollIntoView({ behavior: 'smooth' })
           }
@@ -33,7 +33,7 @@ const Header = (props) => {
           Skills
         </Link>
         <Link
-          to="/about"
+          to="/"
           onClick={() =>
             props.navRefs[3].current.scrollIntoView({ behavior: 'smooth' })
           }

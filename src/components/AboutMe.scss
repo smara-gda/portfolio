@@ -13,7 +13,6 @@
   }
   &.about {
     flex-direction: column;
-    // justify-content: space-around;
     align-items: center;
   }
 }
@@ -38,4 +37,20 @@
   border-radius: 50%;
   box-shadow: 0 0.125em 0.75em -0.5em;
   margin-left: 14em;
+}
+
+@media screen and (max-width: 687px) {
+  .profile_pic {
+    display: none;
+  }
+
+  .flex-container.about p {
+    width: 95%;
+  }
+  .button-cv {
+    width: 75%;
+    text-align: center;
+    align-self: center;
+    height: 42px;
+  }
 }

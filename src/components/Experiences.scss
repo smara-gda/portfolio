@@ -16,3 +16,8 @@
     min-width: 10%;
   }
 }
+@media screen and (max-width: 687px) {
+  section#skills {
+    display: none;
+  }
+}

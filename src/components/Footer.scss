@@ -14,3 +14,9 @@
     height: 1em;
   }
 }
+@media screen and (max-width: 687px) {
+  .footer {
+    display: block;
+    height: 6em;
+  }
+}

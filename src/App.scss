@@ -40,3 +40,9 @@ a {
 section {
   margin-bottom: 12em;
 }
+
+@media screen and (max-width: 687px) {
+  section {
+    margin-bottom: 6em;
+  }
+}

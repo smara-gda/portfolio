@@ -10,13 +10,9 @@ import reactLogo from './../picture/react_logo.png';
 
 const Experiences = React.forwardRef((props, ref) => {
   return (
-    <section ref={ref}>
+    <section ref={ref} id="skills">
       <h1 className="titles">Skills</h1>
       <div className="flex-container icons">
-        {/* <p>
-          I have experience with HTML, CSS, JavaScript, ReactJS, mongoDB, Axios,
-          NodeJS,
-        </p> */}
         <img className="skills-icons" src={html5Logo} alt="html" />
         <img className="skills-icons css" src={cssLogo} alt="css" />
         <img className="skills-icons js" src={jsLogo} alt="js" />
