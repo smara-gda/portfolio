@@ -46,11 +46,13 @@
 
   .flex-container.about p {
     width: 95%;
+    text-align: start;
   }
   .button-cv {
-    width: 75%;
+    width: 55%;
     text-align: center;
-    align-self: center;
+    align-self: flex-start;
     height: 42px;
+    line-height: 2rem;
   }
 }
