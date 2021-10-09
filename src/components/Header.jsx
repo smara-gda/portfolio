@@ -9,6 +9,10 @@ const Header = (props) => {
   const handleToggle = () => {
     setNavBarOpen((prev) => !prev);
   };
+  const closeMenu = () => {
+    setNavBarOpen(false);
+  };
+
   return (
     <header className="header">
       <nav className="navBar">
@@ -17,9 +21,10 @@ const Header = (props) => {
           <li>
             <Link
               to="/"
-              onClick={() =>
-                props.navRefs[0].current.scrollIntoView({ behavior: 'smooth' })
-              }
+              onClick={() => {
+                props.navRefs[0].current.scrollIntoView({ behavior: 'smooth' });
+                closeMenu();
+              }}
             >
               Home{' '}
             </Link>
@@ -27,9 +32,10 @@ const Header = (props) => {
           <li>
             <Link
               to="/"
-              onClick={() =>
-                props.navRefs[2].current.scrollIntoView({ behavior: 'smooth' })
-              }
+              onClick={() => {
+                props.navRefs[2].current.scrollIntoView({ behavior: 'smooth' });
+                closeMenu();
+              }}
             >
               Projects
             </Link>
@@ -37,9 +43,10 @@ const Header = (props) => {
           <li>
             <Link
               to="/"
-              onClick={() =>
-                props.navRefs[1].current.scrollIntoView({ behavior: 'smooth' })
-              }
+              onClick={() => {
+                props.navRefs[1].current.scrollIntoView({ behavior: 'smooth' });
+                closeMenu();
+              }}
             >
               Skills
             </Link>
@@ -47,9 +54,10 @@ const Header = (props) => {
           <li>
             <Link
               to="/"
-              onClick={() =>
-                props.navRefs[3].current.scrollIntoView({ behavior: 'smooth' })
-              }
+              onClick={() => {
+                props.navRefs[3].current.scrollIntoView({ behavior: 'smooth' });
+                closeMenu();
+              }}
             >
               About Me
             </Link>
