@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi';
 
 import './Header.scss';
 
@@ -16,7 +18,15 @@ const Header = (props) => {
   return (
     <header className="header">
       <nav className="navBar">
-        <button onClick={handleToggle}>{navBarOpen ? 'Close' : 'Open'}</button>
+        <button onClick={handleToggle}>
+          {navBarOpen ? (
+            <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
+          ) : (
+            <FiMenu
+              style={{ color: '#7b7b7b', width: '40px', height: '40px' }}
+            />
+          )}
+        </button>
         <ul className={`mobile-view-nav ${navBarOpen ? ' showMenu' : ''}`}>
           <li>
             <Link
