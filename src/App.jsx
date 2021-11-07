@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './App.scss';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Main from './components/Main';
@@ -13,12 +13,12 @@ function App() {
         </Helmet>
         <BrowserRouter>
           {/* <Header /> */}
-          <Switch>
+          {/* <Routes>
             {/* <Route path="/" component={Main} exact />
             <Route path="/experience" component={Experiences} exact />
             <Route path="/projects" component={Projects} exact />
             <Route path="/about" component={AboutMe} exact /> */}
-          </Switch>
+          {/* </Routes> */}
           <Main />
         </BrowserRouter>
         {/* <Footer /> */}
